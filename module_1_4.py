@@ -1,0 +1,7 @@
+my_string = input('ваша профессия: ')
+print('количество символов-',len(my_string))
+print('верхний регистр-',my_string.upper())
+print('нижний регистр-',my_string.lower())
+print('без пробелов-',my_string.replace(' ',''))
+print('первый символ строки-',my_string[0])
+print('последний символ строки-',my_string[-1])
